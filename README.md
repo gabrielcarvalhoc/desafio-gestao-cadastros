@@ -2,7 +2,7 @@
 
 Seja bem vindo! Neste desafio do Treinamento Hiring Coders, criei um Sistema de Gestão de Cadastros de Produtos e Clientes. 
 
-No Cadastro de Produtos, é possível inserir a Categoria, Nome, Marca e Quantidade. Já no Cadastro de Clientes, é possível inserir a Nome, CPF, Email e Telefone.
+No Cadastro de Produtos, é possível inserir a Categoria, Nome, Marca e Quantidade. Já no Cadastro de Clientes, é possível inserir o Nome, CPF, Email e Telefone.
 
 Ao enviar as informações, elas inseridas são adicionadas à tabela presente na página e ficam armazenadas no Local Storage.
 
