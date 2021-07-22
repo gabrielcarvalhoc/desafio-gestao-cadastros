@@ -6,7 +6,7 @@ No Cadastro de Produtos, é possível inserir a Categoria, Nome, Marca e Quantid
 
 Ao enviar as informações, elas são adicionadas à tabela presente na página e ficam armazenadas no Local Storage.
 
-Você pode conferir o projeto em: 
+Você pode conferir o projeto em: <a href="https://cadastros-hc-gabriel.netlify.app/">Gestão de Cadastros</a>
 
 ![image](https://user-images.githubusercontent.com/82124316/126702667-c824c763-8129-4197-8929-9293af472270.png)
 
