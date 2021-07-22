@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Gestão de Cadastros</title>
+</head>
+<body>
+    <header>
+        <h1>
+            Cadastro de Produtos
+            <i class="fas fa-shopping-cart fa-sm"></i>
+        </h1>
+    </header>
+    <main class="container-cadastro">
+        <form action="#" method="post" id="formulario">
+            <div class="form-campos">
+                <div class="label-input">
+                    <label for="categoria">Categoria</label>
+                    <input type="text" name="categoria" id="categoria" placeholder="Categoria do Produto" class="input" required />
+                </div>
+                <div class="label-input">
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" id="nome" placeholder="Nome do Produto" class="input" required />
+                </div>
+                <div class="label-input">
+                    <label for="marca">Marca</label>
+                    <input type="text" name="marca" id="marca" placeholder="Marca do Produto" class="input" required />
+                </div>
+                <div class="label-input">
+                    <label for="quantidade">Quantidade</label>
+                    <input type="number" name="quantidade" id="quantidade" value="1" min="1" class="input" required />
+                </div>
+            </div>
+            <input type="submit" class="botao" value="Cadastrar Produto" />
+        </form>
+        <table>
+            <thead>
+                <tr>
+                    <th>Categoria</th>
+                    <th>Nome</th>
+                    <th>Marca</th>
+                    <th>Quantidade</th>
+                </tr>
+            </thead>
+            <tbody id="tabela-produtos">
+
+            </tbody>
+        </table>
+        <a href="index.html">
+            <button class="botao">Voltar</button>
+        </a>
+    </main>
+    
+    <script src="js/script-produto.js"></script>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</body>
+</html>

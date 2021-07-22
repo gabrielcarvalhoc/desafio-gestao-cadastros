@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #9fb1bc;
+    font-family: 'Mukta', sans-serif;
+}
+
+header {
+    background-color: #6e8898;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+/* Container botões */
+
+.container-botoes {
+    display: flex;
+    margin-top: 150px;
+    justify-content: center;
+}
+
+.container-botoes a {
+    width: fit-content;
+}
+
+.botao {
+    margin: 0 20px;
+    padding: 12px 20px;
+    max-width: 200px;
+    background-color: #f2f3ae;
+    color: #2e5266;
+    border-radius: 6px;
+    border: 0;
+    transition: background-color 0.2s;
+    font-size: 16px;
+    font-weight: 600;
+    height: fit-content;
+}
+
+.botao:hover {
+    cursor: pointer;
+    box-shadow: 0 1px 6px #20212447;
+    background-color: #ffc09f;
+}
+
+/* Container cadastro */
+
+.container-cadastro {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 200px ;
+}
+
+.container-cadastro a {
+    width: fit-content;
+}
+
+/* Formulário */
+
+form#formulario {
+    margin: 0px 20px;
+    color: #fff;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.form-campos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.label-input {
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+}
+
+.input {
+    border: 1px solid #dfe1e500;
+    border-radius: 6px;
+    outline-width: 0;
+    height: 30px;
+    padding-left: 10px;
+}
+
+.input:hover, :focus {
+    box-shadow: 0 1px 6px #20212447;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+/* Tabela */
+
+.container-cadastro table {
+    margin: 40px 20px;
+    color: #fff;
+}
+
+.container-cadastro table td, th {
+    width: 25%;
+}
+
+.container-cadastro table thead {
+    background-color: #2e5266;
+}
+
+.container-cadastro table thead tr th {
+    font-weight: 500;
+}
+
+.container-cadastro table tbody {
+    text-align: center;
+    font-weight: 300;
+    background-color: #6e8898;
+}
