@@ -57,7 +57,7 @@ header {
 .container-cadastro {
     display: flex;
     flex-direction: column;
-    margin: 50px 200px ;
+    margin: 5vh 5vw;
 }
 
 .container-cadastro a {
